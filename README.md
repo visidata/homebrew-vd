@@ -36,4 +36,4 @@ brew untap devotees/vd
 ```
 
 ## About
-VisiData was created and is being developed by [Saul Pwanson](saul.pw) <saul@visidata.org>. The homebrew package and tap is maintained by [Anja Kefala](https://github.com/anjakefala) <anja@visidata.org>.
+VisiData was created and is being developed by [Saul Pwanson](saul.pw) &lt;saul@visidata.org&gt;. The homebrew package and tap is maintained by [Anja Kefala](https://github.com/anjakefala) %lt;anja@visidata.org&gt;.
