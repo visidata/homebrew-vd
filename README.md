@@ -24,7 +24,7 @@ and VisiData can then be updated with every subsequent release using:
 
 ```
 brew update
-brew install visidata
+brew upgrade visidata
 ```
 
 ## Uninstall
