@@ -9,7 +9,7 @@ If you are looking for installation instructions for VisData on OSes in the Linu
 To install the tap:
 
 ```
-brew tap devotees/vd
+brew tap saulpw/vd
 ```
 
 This will enable tracking, updating and installing all formulae made available here through `brew`.
@@ -32,7 +32,7 @@ brew install visidata
 To uninstall this tap:
 
 ```
-brew untap devotees/vd
+brew untap saulpw/vd
 ```
 
 ## About
