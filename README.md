@@ -4,6 +4,8 @@ homebrew-vd is a [Homebrew](http://brew.sh) tap for convenient installation and 
 
 If you are looking for installation instructions for VisData on OSes in the Linux family, they are available [here](https://github.com/saulpw/visidata#install).
 
+This tap contains VisiData v1.0.
+
 ## Install
 
 To install the tap:
