@@ -37,5 +37,11 @@ To uninstall this tap:
 brew untap saulpw/vd
 ```
 
+## Troubleshooting
+
+If you run into `No module named setuptools` errors, then this is likely a known Homebrew conundrum.
+
+Follow the advice [in this issue thread](https://github.com/Homebrew/homebrew-python/issues/216).
+
 ## About
 VisiData was created and is being developed by [Saul Pwanson](http://saul.pw) &lt;saul@visidata.org&gt;. The homebrew package and tap is maintained by [Anja Kefala](https://github.com/anjakefala) &lt;anja@visidata.org&gt;.
