@@ -5,7 +5,7 @@ class Visidata < Formula
   url "https://files.pythonhosted.org/packages/4f/f6/01acfae53ae901756bc7778fc8c6f1ee70d442b5190f8bfe7d54dd35bb19/visidata-1.2.tar.gz"
   sha256 "042efc2c43edaf3c3f8bd1bbf3c5d515663db66c41e81eea5f8b09200c2744e1"
 
-  depends_on "python3"
+  depends_on "python"
 
   resource "six" do
     url "https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz"
