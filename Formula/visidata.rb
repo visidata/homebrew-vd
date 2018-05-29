@@ -63,7 +63,7 @@ class Visidata < Formula
   end
 
   def install
-    venv = virtualenv_create(libexec, "python")
+    venv = virtualenv_create(libexec, "python3")
     venv.pip_install resources
     venv.pip_install_and_link buildpath
     man1.install "visidata/man/vd.1"
