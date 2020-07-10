@@ -64,8 +64,8 @@ class Visidata < Formula
   end
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/da/b5/d3e0d22649c63e92cb0902847da9ae155c1e801178ab5d272308f35f726e/lxml-4.3.4.tar.gz"
-    sha256 "3ce1c49d4b4a7bc75fb12acb3a6247bb7a91fe420542e6d671ba9187d12a12c2"
+    url "https://files.pythonhosted.org/packages/36/14/4e58e16122dd50577a2bfa883c19bd781e223714d55a0d97f56ea506763c/lxml-4.3.5.tar.gz"
+    sha256 "738862e9724d201f1aa8394cb666d8136d666198e97d6e1e5c9876ad884a86b3"
   end
 
   def install
