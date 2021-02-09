@@ -2,9 +2,9 @@ class Visidata < Formula
   include Language::Python::Virtualenv
   desc "Terminal utility for exploring and arranging tabular data"
   homepage "https://visidata.org/"
-  url "https://files.pythonhosted.org/packages/e2/82/8de74ea0432f3aadfac458eea3ea02eb347e7abfffe7bcf9981bb447d9ae/visidata-2.2.tar.gz"
-  version "2.2"
-  sha256 "667db2f91f3b375fb8ccff114c65ea913b01d67be608cd973539921fbbf7a3e0"
+  url "https://files.pythonhosted.org/packages/2f/62/470b3888ad722c337de897c1ed4219bdc0c8e4a418b34f92e0d8206e2dd0/visidata-2.2.1.tar.gz"
+  version "2.2.1"
+  sha256 "2eeda44d3c9b56ab1d0b7a8a17e038bce0db5dee38a6098051060f214ea733a0"
 
   depends_on "python"
 
@@ -73,6 +73,7 @@ class Visidata < Formula
     venv.pip_install resources
     venv.pip_install_and_link buildpath
     man1.install "visidata/man/vd.1"
+    man1.install "visidata/man/visidata.1"
   end
 
   test do
