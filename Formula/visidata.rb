@@ -2,9 +2,9 @@ class Visidata < Formula
   include Language::Python::Virtualenv
   desc "Terminal utility for exploring and arranging tabular data"
   homepage "https://visidata.org/"
-  url "https://files.pythonhosted.org/packages/6e/f2/3649e026a69b68e183e46c3dbe0ad46fcc9270135623169904778c6b3ad8/visidata-2.3.tar.gz"
-  version "2.3"
-  sha256 "408cfbe0250aeb4c58b7e80719de0242fd34754c3a9c228c0ae6eccb5ba01231"
+  url "https://files.pythonhosted.org/packages/2e/c0/8a39fc04f803a4f48de1a3334f6108c101a53b5367f501017e64401c4e33/visidata-2.4.tar.gz"
+  version "2.4"
+  sha256 "0d98ffced2fae043b76d684be2767a51c4fecd911cbe5e551b22e23ada232fbd"
 
   depends_on "python"
 
