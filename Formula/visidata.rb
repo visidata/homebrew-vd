@@ -5,8 +5,13 @@ class Visidata < Formula
   url "https://files.pythonhosted.org/packages/2e/c0/8a39fc04f803a4f48de1a3334f6108c101a53b5367f501017e64401c4e33/visidata-2.4.tar.gz"
   version "2.4"
   sha256 "0d98ffced2fae043b76d684be2767a51c4fecd911cbe5e551b22e23ada232fbd"
-
+  
   depends_on "python"
+  
+  on_linux do
+    depends_on "libxml2"
+    depends_on "libxslt"
+  end
 
   resource "six" do
     url "https://files.pythonhosted.org/packages/dd/bf/4138e7bfb757de47d1f4b6994648ec67a51efe58fa907c1e11e350cddfca/six-1.12.0.tar.gz"
