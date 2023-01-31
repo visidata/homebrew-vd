@@ -5,6 +5,7 @@ class Visidata < Formula
   url "https://files.pythonhosted.org/packages/4e/45/75bec1b89ec27b0e74f84da2f036a20f9ed7d15c4e53283efb12cb355ede/visidata-2.11.tar.gz"
   version "2.11"
   sha256 "c09ecb65025dc9d6513bfd5e5aff9c430ffc325cc183b81abf5f2df5a96b66b3"
+  revision 1
 
   depends_on "python"
 
