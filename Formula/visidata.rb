@@ -4,6 +4,7 @@ class Visidata < Formula
   homepage "https://visidata.org/"
   url "https://files.pythonhosted.org/packages/8c/75/3e2f5c7c8b129d34a28d02741e13ae6e1bc41c3fcdb0a3e45b54eb2defe0/visidata-3.0.2.tar.gz"
   sha256 "38c38df08c1b48dde5f9ae1bdb02cb19f70acf0461d0e85cb14f9c002a77c05a"
+  revision 1
 
   depends_on "python3"
 
@@ -48,8 +49,8 @@ class Visidata < Formula
   end
 
   resource "lxml" do
-    url "https://files.pythonhosted.org/packages/06/5a/e11cad7b79f2cf3dd2ff8f81fa8ca667e7591d3d8451768589996b65dec1/lxml-4.9.2.tar.gz"
-    sha256 "2455cfaeb7ac70338b3257f41e21f0724f4b5b0c0e7702da67ee6c3640835b67"
+    url "https://files.pythonhosted.org/packages/84/14/c2070b5e37c650198de8328467dd3d1681e80986f81ba0fea04fc4ec9883/lxml-4.9.4.tar.gz"
+    sha256 "b1541e50b78e15fa06a2670157a1962ef06591d4c998b998047fff5e3236880e"
   end
 
   resource "zipp" do
