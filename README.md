@@ -46,7 +46,7 @@ While core VisiData comes with out-of-the-box support for csv, json, sqlite, tsv
 Additional dependencies will need to be installed into VisiData's Homebrew environment:
 
 ```
-/path/to/homebrew/Cellar/visidata/{ver}/libexec/bin/pip3 install {dependency}
+/path/to/homebrew/Cellar/visidata/{ver}/libexec/bin/python3 -m pip install {dependency}
 ```
 
 ## About
