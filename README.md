@@ -1,5 +1,16 @@
 # VisiData Homebrew Tap
 
+### Update
+
+This repo is archived, and no longed maintained.
+Since the community added VisiData to [Homebrew Core](https://formulae.brew.sh/formula/visidata), VisiData can now be installed as simply as:
+
+```
+$ brew install visidata
+```
+
+-----
+
 homebrew-vd is a [Homebrew](http://brew.sh) tap for convenient installation and updating of [VisiData](http://visidata.org) on MacOS/X.
 
 If you are looking for installation instructions for VisData on OSes in the Linux family, they are available [here](https://github.com/saulpw/visidata#install).
